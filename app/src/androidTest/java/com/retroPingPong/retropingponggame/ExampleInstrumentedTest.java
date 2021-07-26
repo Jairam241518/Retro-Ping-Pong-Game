@@ -1,4 +1,4 @@
-package com.example.retropingponggame;
+package com.retroPingPong.retropingponggame;
 
 import android.content.Context;
 

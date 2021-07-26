@@ -12,12 +12,13 @@
 
     <TextView
         android:id="@+id/textView"
-        android:layout_width="248dp"
+        android:layout_width="400dp"
         android:layout_height="69dp"
-        android:layout_marginEnd="5dp"
-        android:layout_marginRight="5dp"
+        android:layout_marginEnd="-50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="-100dp"
         android:fontFamily="@font/aldrich"
-        android:text="START GAME"
+        android:text="PING PONG RETRO"
         android:textColor="#3F51B5"
         android:textSize="34sp"
         android:textStyle="bold" />
@@ -27,16 +28,31 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <ImageButton
-            android:layout_width="207dp"
-            android:layout_height="213dp"
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
             android:layout_marginRight="20dp"
-            android:background="@drawable/play"
-            android:onClick="startGame">
+            android:onClick="startGame"
+            android:text="SINGLE PLAYER">
 
-        </ImageButton>
+        </Button>
 
 
     </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonEasy"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="MULTIPLAYER( vs COMPUTER) - EASY"
+        android:onClick="multiplayerEasy" />
+    <Button
+        android:id="@+id/buttonHard"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="MULTIPLAYER( vs COMPUTER) - HARD"
+        android:onClick="multiplayerHard" />
 
 </LinearLayout>
